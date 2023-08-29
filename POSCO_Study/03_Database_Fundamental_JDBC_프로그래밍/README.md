@@ -6,6 +6,18 @@
 
 <br>
 
+# 과제
+```sh
+- | -- maradb-practice
+  - | --sql-practices
+  - | --sql-practices
+  - | --model
+  - | --jdbc-practices
+    - | --pom.xml
+    - | --src
+```
+<br>
+
 # 데이터베이스
 
 - 여러 응용 시스템(프로그램)들의 통합된 정보들을 저장하여 운영할 수 있는 공용(share) 데이터의 집합
@@ -58,16 +70,6 @@
 ![img_3.png](..%2F..%2FSource_Data%2Fimage_Data%2F01%2Fimg_3.png)
 
 
-# 과제
-```sh
-- | -- maradb-practice
-  - | --sql-practices
-  - | --sql-practices
-  - | --model
-  - | --jdbc-practices
-    - | --pom.xml
-    - | --src
-```
 
 
 
