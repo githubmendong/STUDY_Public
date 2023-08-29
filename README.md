@@ -22,7 +22,7 @@
 
 <br>
 
-  - [`유용한 사이트`](https://github.com/githubmendong/STUDY/tree/main/Algorithms)
+  - **[`유용한 사이트`](https://github.com/githubmendong/STUDY/tree/main/Algorithms)**
 
     - ['이모지'](https://gist.github.com/rxaviers/7360908)
 
