@@ -1,2 +1,12 @@
-# STUDY
-개인 공부 정리 Repository 입니다.
+# 공부하자 
+
+### 📝 PAGE
+
+  - [`JAVA_Study`](https://github.com/githubmendong/STUDY/tree/main/JAVA_Study)
+
+  - [`POSCO_Study`](https://github.com/githubmendong/STUDY/tree/main/POSCO_Study)
+
+  - [`SPRING_Study`](https://github.com/githubmendong/STUDY/tree/main/SPRING_Study)
+
+<br>
+
