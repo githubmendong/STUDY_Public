@@ -1,6 +1,8 @@
 # 💻 RDBMS
 
-- Fundamental
+
+>- [1_mariadb-계정-db-만들기.md](1_mariadb-%B0%E8%C1%A4-db-%B8%B8%B5%E9%B1%E2.md)
+>- [💻 8월 29일 실습.md](%3F%208%BF%F9%2029%C0%CF%20%BD%C7%BD%C0.md)
 
 <br>
 
