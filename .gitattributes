@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 *.jar filter=lfs diff=lfs merge=lfs -text
+=======
+'*.ext' !text !filter !merge !diff
+>>>>>>> b2f5d64 (Initial commit)
