@@ -8,6 +8,13 @@
 >- [💻 8월 31일 실습.md](%3F%208%BF%F9%2031%C0%CF%20%BD%C7%BD%C0.md)
 <br/>
 
+
+---
+>- [✅ 실습 자료](https://github.com/githubmendong/mariadb-practices/tree/main/sql_%EC%97%B0%EC%8A%B5)
+
+
+---
+
 # 과제
 ```sh
 - | -- maradb-practice
