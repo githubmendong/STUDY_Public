@@ -12,35 +12,40 @@ import java.util.Optional;
 @Controller // spring framework 를 사용하기 위해
 public class MemberService {
 
-    // 저장소
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository = new MemoryMemerRepository(); //final : 변경할 수 없는 상수값
 
-    // 회원가입
+    /*
+    회원 가입
+     */
     public Long join(Member member) {
-
-        // 중복회원 검증 메서드 호출
+        //같은 이름인 중복 회원 X
         validateDuplicateMember(member);
 
-        // member를 저장소에 저장
         memberRepository.save(member);
-        // member id 반환
         return member.getId();
     }
 
-    // 중복회원 검증 메서드
     private void validateDuplicateMember(Member member) {
-        memberRepository.findByName(member.getName()).ifPresent(m -> { // 이름이 같은 회원이 존재하면
-            throw new IllegalStateException("이미 존재하는 회원입니다.");
-        });
+
+        memberRepository.findByName(member.getName()) //일단 이름을 찾아본다
+                .ifPresent(m -> {  //이미 그 이름이 존재한다면,  ifPresent() : null이 아니라 값이 있으면 다음 동작이 실행된다.
+                    throw new IllegalStateException("이미 존재하는 회원입니다.");
+                });
+
+//        Optional<Member> result = memberRepository.findByName(member.getName());
+//        result.ifPresent(m -> {
+//            throw new IllegalStateException("이미 존재하는 회원입니다.");
+//        });
     }
 
-    //전체 회원 조회 메서드
-    public List<Member> findMembers(){
-        return memberRepository.findAll();
+    /*
+    전체 회원 조회
+     */
+    public List<Member> findMembers() {
+        return memberRepository.findAll(); //findAll의 반환 타임 : List
     }
 
-    //id 회원 조회 서비스
-    public Optional<Member> findOne(Long memberId){
+    public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
 }
