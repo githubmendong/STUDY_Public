@@ -4,53 +4,78 @@ import com.poscodxT.demo.domain.Member;
 import com.poscodxT.demo.repository.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
-    MemberService memberService = new MemberService(); // member service
-    MemberService memberService;
-    MemoryMemberRepository memberRepository;
-    @Test
-    void 회원가입() {
-        // given
-        Member member = new Member(); // member 객체 생성
-        member.setName("hello"); // member name에 hello을 넣음
 
-        // when
-        // member 객체를 회원가입하고, 반환된 id를 saveId
+// 첫 줄에서의 MemberService 내에 있는 memberRepository와 두번째 줄에서의 memberRepository는 서로 다른 객체이다.
+//    MemberService memberService = new MemberService();
+//    MemoryMemerRepository memberRepository = new MemoryMemerRepository();
+
+    MemberService memberService;
+    MemoryMemerRepository memberRepository;
+
+    @BeforeEach
+    public void beforeEach() {
+        memberRepository = new MemoryMemerRepository();
+        memberService = new MemberService(memberRepository);
+        //MemoryMemberRepository를 만들어 넣어주므로써 같은 메모리 리포지토리를 사용하게 됨
+    }
+
+    @AfterEach //테스트가 끝날 때마다 데이터를 지워줘야 한다
+    public void afterEach(){  //메서드가 끝날 때마다 동작한다.
+        memberRepository.clearStore();
+    }
+
+    @Test
+    public void 회원가입() {
+
+        //given 무엇인가 주어졌을 때
+        Member member = new Member();
+        member.setName("spring");
+
+        //when 이거를 실행을 시키고
         Long saveId = memberService.join(member);
 
-        // then
-        // 회원가입한 member의 id가 저장소에 있으면, 해당 member 객체를 findMember로
+        //then 결과가 이게 나와야 한다
         Member findMember = memberService.findOne(saveId).get();
-        // 회원가입한 member와, 저장소에서 가져온 member의 이름이 같은 지 검증
-        Assertions.assertThat(member.getName()).isEqualTo(findMember.getName());
+        assertThat(member.getName()).isEqualTo(findMember.getName());
+
     }
+
     @Test
     public void 중복_회원_예외() {
-        // given
-        // 이름이 같은 중복 회원 member 객체 생성
+
+        //given
         Member member1 = new Member();
         member1.setName("spring");
-
         Member member2 = new Member();
         member2.setName("spring");
 
-        // when
-        memberService.join(member1);
+        //when
+//        memberService.join(member1);
+//        try{       //실행할 코드
+//            memberService.join(member2);
+//            fail();
+//        }catch(IllegalStateException e){     //예외
+//            assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
+//        }
 
-        // memberService.join(member2)에 IllegalStateException 예외 검증
-        IllegalStateException e = assertThrows(IllegalStateException.class,
-                () -> memberService.join(member2));
-        System.out.println(e.getMessage()); // 예외 메시지 출력
+        memberService.join(member1);
+        IllegalStateException e = assertThrows(IllegalStateException.class, () -> memberService.join(member2));   //assertThrows : 예외 처리 메서드, ()->가 실행되고 예외가 발생해야 한다.
+        assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
+
     }
 
-    MemoryMemberRepository memberRepository = new MemoryMemberRepository();
+    @Test
+    void findMembers() {
+    }
 
-    @AfterEach // 메서드 실행이 끝날 때마다 실행됨
-    public void afterEach() {
-        memberRepository.clearStore(); // 저장소 내용 다 지움
+    @Test
+    void findOne() {
     }
 }
