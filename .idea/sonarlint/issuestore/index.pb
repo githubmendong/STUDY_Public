@@ -489,3 +489,7 @@ a
 1Obsidian Vault/.obsidian/plugins/dataview/main.js,0\3\03f7fd36174ab2e2ce2b80bb08340c79164d5d46
 G
 Obsidian_Note/README.md,f\a\fadd2f982c2393479dfb11b74861e3429fd09eae
+[
++Obsidian Vault/.obsidian/.obsidian/app.json,d\c\dc1898796abeb76179d1154b1135bcd2d7e73fe0
+d
+4Obsidian Vault/.obsidian/.obsidian/core-plugins.json,f\6\f634c54cf090bda379956c924694537d6cce837c

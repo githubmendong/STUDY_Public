@@ -489,3 +489,7 @@ eObsidian Vault/.obsidian/plugins/obsidian-advanced-slides/plugin/math/mathjax/o
 gObsidian Vault/.obsidian/plugins/obsidian-advanced-slides/plugin/math/mathjax/output/chtml/fonts/tex.js,a\4\a460fe9d0847de7cac06a979521499cc3f167359
 G
 Obsidian_Note/README.md,f\a\fadd2f982c2393479dfb11b74861e3429fd09eae
+[
++Obsidian Vault/.obsidian/.obsidian/app.json,d\c\dc1898796abeb76179d1154b1135bcd2d7e73fe0
+d
+4Obsidian Vault/.obsidian/.obsidian/core-plugins.json,f\6\f634c54cf090bda379956c924694537d6cce837c
