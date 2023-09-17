@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.datatype",
+    "module": "jackson-datatype-jdk8",
+    "version": "2.15.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-jdk8-2.15.2.jar",
+          "url": "jackson-datatype-jdk8-2.15.2.jar",
+          "size": 35101,
+          "sha512": "bc1cef89e1046476a0263c378c7a41c70f8b29b0372eedc6a27b1b075ef3e8f45766eb34dac73b8875d1bd3a7311b60e243dc3a91d8699585ecfa4e05943c08",
+          "sha256": "e5c9dff706e731c04823dc0af3e863bb967ca6a3f6b1aaf0628e2870dea97473",
+          "sha1": "4dd5cdcf117f587f50b5425e3845056c94b5f2b2",
+          "md5": "f80597a6505b50c87b02b220c850d774"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-datatype-jdk8-2.15.2.jar",
+          "url": "jackson-datatype-jdk8-2.15.2.jar",
+          "size": 35101,
+          "sha512": "bc1cef89e1046476a0263c378c7a41c70f8b29b0372eedc6a27b1b075ef3e8f45766eb34dac73b8875d1bd3a7311b60e243dc3a91d8699585ecfa4e05943c08",
+          "sha256": "e5c9dff706e731c04823dc0af3e863bb967ca6a3f6b1aaf0628e2870dea97473",
+          "sha1": "4dd5cdcf117f587f50b5425e3845056c94b5f2b2",
+          "md5": "f80597a6505b50c87b02b220c850d774"
+        }
+      ]
+    }
+  ]
+}
