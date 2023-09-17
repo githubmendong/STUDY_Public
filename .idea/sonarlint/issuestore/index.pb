@@ -487,8 +487,6 @@ U
 %Obsidian Vault/.obsidian/hotkeys.json,3\6\36474bf9d9c025feeec536d48df6d5b07247d3e9
 a
 1Obsidian Vault/.obsidian/plugins/dataview/main.js,0\3\03f7fd36174ab2e2ce2b80bb08340c79164d5d46
-G
-Obsidian_Note/README.md,f\a\fadd2f982c2393479dfb11b74861e3429fd09eae
 [
 +Obsidian Vault/.obsidian/.obsidian/app.json,d\c\dc1898796abeb76179d1154b1135bcd2d7e73fe0
 d
