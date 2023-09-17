@@ -2,5 +2,10 @@
 .obsidian/workspace.json
 obsidian/workspace-mobile.json
 .obsidian/workspace-mobile.json
-/hidden
+
+
+# Ignore .obsidian directory
+.obsidian/
+
+# Ignore hidden directory
 hidden/
