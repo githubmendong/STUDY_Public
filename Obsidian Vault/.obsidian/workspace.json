@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f5804e05abcd41f7",
@@ -147,11 +146,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,14 +168,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "171c3b452f59f107",
+  "active": "c9958b23f3047706",
   "lastOpenFiles": [
+    "hidden",
     "이것은 제목입니다..md",
     "이것은 제목입니다. 1.md",
     "스프링 학습.md",
     "무제 파일.canvas",
     "무제 파일 1.canvas",
-    "나의 공부법.md",
+    "hidden/나의 공부법.md",
     "2023-09-17.md"
   ]
 }
