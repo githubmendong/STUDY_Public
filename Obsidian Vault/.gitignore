@@ -5,7 +5,7 @@ obsidian/workspace-mobile.json
 
 
 # Ignore .obsidian directory
-.obsidian/
+#.obsidian/
 
 # Ignore hidden directory
-hidden/
+hidden/*

@@ -487,9 +487,21 @@ U
 %Obsidian Vault/.obsidian/hotkeys.json,3\6\36474bf9d9c025feeec536d48df6d5b07247d3e9
 a
 1Obsidian Vault/.obsidian/plugins/dataview/main.js,0\3\03f7fd36174ab2e2ce2b80bb08340c79164d5d46
-G
-Obsidian_Note/README.md,f\a\fadd2f982c2393479dfb11b74861e3429fd09eae
 [
 +Obsidian Vault/.obsidian/.obsidian/app.json,d\c\dc1898796abeb76179d1154b1135bcd2d7e73fe0
 d
 4Obsidian Vault/.obsidian/.obsidian/core-plugins.json,f\6\f634c54cf090bda379956c924694537d6cce837c
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+b
+2Obsidian Vault/.obsidian/.obsidian/appearance.json,7\3\734d331fcf0bb1a964e96b88c2af1e89c84486c4
+n
+>Obsidian Vault/.obsidian/.obsidian/core-plugins-migration.json,9\5\951f91cd3dcdec4753883a9cf38f59367d88f456
+_
+/Obsidian Vault/.obsidian/.obsidian/hotkeys.json,9\3\9309b63d700182bda2e873114e51b5ffe3a82c54
+a
+1Obsidian Vault/.obsidian/.obsidian/workspace.json,c\9\c92d30404920979dcdec43fe5c80b73487ba7239
+I
+Obsidian Vault/.gitignore,5\f\5f85a6dd35840e0355a19eb9b7aea9fc8054387e
