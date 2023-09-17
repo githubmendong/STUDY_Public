@@ -1,0 +1,11 @@
+{
+  "accentColor": "#b171fe",
+  "interfaceFontFamily": "D2Coding",
+  "monospaceFontFamily": "D2Coding",
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "nativeMenus": false,
+  "textFontFamily": "D2Coding ligature",
+  "baseFontSize": 16,
+  "translucency": false
+}
