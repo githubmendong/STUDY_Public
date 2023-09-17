@@ -1,56 +1,35 @@
 {
   "main": {
-    "id": "7fedb07aada943c5",
+    "id": "6e35b0539af18f58",
     "type": "split",
     "children": [
       {
-        "id": "5d3eabe0e51a6efa",
+        "id": "ef356441ca74a75c",
         "type": "tabs",
         "children": [
           {
-            "id": "6064fc87f870093b",
+            "id": "6f48a4df7592be35",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "6436d41b7ec578b0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "171c3b452f59f107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "이것은 제목입니다..md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b6c1e18cda10dc9c",
+    "id": "758d75591e22225a",
     "type": "split",
     "children": [
       {
-        "id": "f783d12f604c4b5a",
+        "id": "1350264fb1d4ddb1",
         "type": "tabs",
         "children": [
           {
-            "id": "c9958b23f3047706",
+            "id": "67000766a997d221",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -60,7 +39,7 @@
             }
           },
           {
-            "id": "175e47a9e196e685",
+            "id": "1060b9d6ac235310",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +54,7 @@
             }
           },
           {
-            "id": "9c21b86846c68e2f",
+            "id": "e58e1644bce20620",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "f5804e05abcd41f7",
+    "id": "99b12e7923e89ca8",
     "type": "split",
     "children": [
       {
-        "id": "3f52fd3b4d7fed45",
+        "id": "d77d431a24992d47",
         "type": "tabs",
         "children": [
           {
-            "id": "177cf40f46a68878",
+            "id": "3aefc979211725aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이것은 제목입니다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +92,18 @@
             }
           },
           {
-            "id": "087b2831977079ae",
+            "id": "f574921c85798610",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이것은 제목입니다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "268f6304b53426c9",
+            "id": "aa607a5a4c32e4ee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,13 +114,11 @@
             }
           },
           {
-            "id": "a23bce4a96fe0f30",
+            "id": "f6ae2aa1a3f2971c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "이것은 제목입니다..md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,21 +135,9 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "remotely-save:Remotely Save": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "171c3b452f59f107",
-  "lastOpenFiles": [
-    "이것은 제목입니다..md",
-    "이것은 제목입니다. 1.md",
-    "스프링 학습.md",
-    "무제 파일.canvas",
-    "무제 파일 1.canvas",
-    "나의 공부법.md",
-    "2023-09-17.md"
-  ]
+  "active": "6f48a4df7592be35",
+  "lastOpenFiles": []
 }
