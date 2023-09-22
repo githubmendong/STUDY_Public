@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-test",
+    "version": "3.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4.jar",
+          "url": "spring-boot-test-3.1.4.jar",
+          "size": 247973,
+          "sha512": "38686e5323872b2794d00782ad504645017a686f7780ee3b0e65e3ee9d8835da920e785776b1b972946a0f90c1d0d7b690c9a7310dfe7bdda22b10736c3aa2b9",
+          "sha256": "29959578156be554889bb4b883c1f3a88f01c588190c75d1c9b601a77888f0bb",
+          "sha1": "189c105270b2b109fbb26c709e2e42133aef5ab3",
+          "md5": "9b4200410860853d30f7c5cea5cbcdfa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "3.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4.jar",
+          "url": "spring-boot-test-3.1.4.jar",
+          "size": 247973,
+          "sha512": "38686e5323872b2794d00782ad504645017a686f7780ee3b0e65e3ee9d8835da920e785776b1b972946a0f90c1d0d7b690c9a7310dfe7bdda22b10736c3aa2b9",
+          "sha256": "29959578156be554889bb4b883c1f3a88f01c588190c75d1c9b601a77888f0bb",
+          "sha1": "189c105270b2b109fbb26c709e2e42133aef5ab3",
+          "md5": "9b4200410860853d30f7c5cea5cbcdfa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4-javadoc.jar",
+          "url": "spring-boot-test-3.1.4-javadoc.jar",
+          "size": 413168,
+          "sha512": "396cac9fd1e724fd7528da609c456b4af7c7975753bf41729576809449d193f509d2a554d28f920efaf7c97ead515a15d35a2c5fb06599457a605e4f1e127624",
+          "sha256": "ef878a1ac9b34cda9c73b8ff8fbfc4177e9a5ce502ceeabbca7aa8b6afdec690",
+          "sha1": "3bf12adc94de60d40dc86962bd8e312386fd4824",
+          "md5": "2a7c685428d21ea5bb4b6554e0cd87cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4-sources.jar",
+          "url": "spring-boot-test-3.1.4-sources.jar",
+          "size": 167894,
+          "sha512": "998eee1cd9ae1e131a0afa73304dd7952c2302ffc3f92cd1579c4c3fcbe52459af8de4b0ef45a1a9dd8e71a85c0249c5c675ed17be70bc4c456dd2c39f9a572f",
+          "sha256": "9a3c7ca1051b7a36aa428422bba326f0f779aeb06c8eb005d52229284452f099",
+          "sha1": "ae469f241fe33ef4fc54e2c840be21413be5344a",
+          "md5": "9aad648db52ffe12b6e81b10758e671b"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4.jar",
+          "url": "spring-boot-test-3.1.4.jar",
+          "size": 247973,
+          "sha512": "38686e5323872b2794d00782ad504645017a686f7780ee3b0e65e3ee9d8835da920e785776b1b972946a0f90c1d0d7b690c9a7310dfe7bdda22b10736c3aa2b9",
+          "sha256": "29959578156be554889bb4b883c1f3a88f01c588190c75d1c9b601a77888f0bb",
+          "sha1": "189c105270b2b109fbb26c709e2e42133aef5ab3",
+          "md5": "9b4200410860853d30f7c5cea5cbcdfa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-maven-optional",
+          "version": "3.1.4"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-3.1.4.jar",
+          "url": "spring-boot-test-3.1.4.jar",
+          "size": 247973,
+          "sha512": "38686e5323872b2794d00782ad504645017a686f7780ee3b0e65e3ee9d8835da920e785776b1b972946a0f90c1d0d7b690c9a7310dfe7bdda22b10736c3aa2b9",
+          "sha256": "29959578156be554889bb4b883c1f3a88f01c588190c75d1c9b601a77888f0bb",
+          "sha1": "189c105270b2b109fbb26c709e2e42133aef5ab3",
+          "md5": "9b4200410860853d30f7c5cea5cbcdfa"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-maven-optional",
+          "version": "3.1.4"
+        }
+      ]
+    }
+  ]
+}
