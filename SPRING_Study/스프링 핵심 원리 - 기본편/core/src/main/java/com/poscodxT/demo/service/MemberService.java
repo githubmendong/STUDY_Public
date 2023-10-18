@@ -1,14 +1,12 @@
 package com.poscodxT.demo.service;
 
-import com.poscodxT.demo.domain.Member;
-import com.poscodxT.demo.repository.MemoryMemberRepository;
+import hello.core.member.Member;
+import hello.core.member.MemberRepository;
+import hello.core.member.MemoryMemberRepository;
 import org.springframework.stereotype.Controller;
 
-import java.util.List;
-import java.util.Optional;
-
 @Controller // spring framework 를 사용하기 위해
-public class MemberService {
+public abstract class MemberService {
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
     /*
@@ -46,4 +44,6 @@ public class MemberService {
     public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
+
+    public abstract Member findMember(Long memberId);
 }
